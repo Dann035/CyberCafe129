@@ -1,6 +1,6 @@
 # Proyecto en equipo CyberCafé
 
----
+![Bar Café](/public/banner-bar-cafe.png)
 
 > Vale estaremos creando una página web muy simple sobre un CyberCafé
 

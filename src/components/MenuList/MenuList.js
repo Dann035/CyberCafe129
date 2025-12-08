@@ -1,20 +1,14 @@
-import './MenuList.css' // ¡Vite permite importar CSS en JS!
+import './MenuList.css'
+import MenuHTML from './MenuList.html?raw'
 
+// Esto es la function que se renderiza en el html
 export const initMenu = () => {
-  // 1. Buscamos nuestro solar
+  // 1. Buscamos nuestro elemento html
   const container = document.querySelector('#menu-container')
-  
-  // 2. Construimos el contenido (HTML string)
-  const content = `
-    <div class="menu-wrapper">
-      <h2>Nuestros Cafés</h2>
-      <ul>
-        <li>Café Cubano - $1.50</li>
-        <li>Cortadito - $2.00</li>
-      </ul>
-    </div>
-  `
-  
-  // 3. Lo inyectamos
-  container.innerHTML = content
+  if (container){
+    // 3. Lo inyectamos para que se renderice
+    container.innerHTML = MenuHTML
+  }
 }
+
+// TU CÓDIGO APARTIR DE AQUÍ
