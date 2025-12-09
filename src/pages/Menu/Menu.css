@@ -1,0 +1,24 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+
+:root {
+    --clr-amarillo-50: #fbfaeb;
+    --clr-amarillo-100: #f5f4cc;
+    --clr-amarillo-200: #ede89b;
+    --clr-amarillo-300: #e3d561;
+    --clr-amarillo-400: #d9c136;
+    --clr-amarillo-500: #c9ab29;
+    --clr-amarillo-600: #b08a21;
+    --clr-amarillo-700: #8b641d;
+    --clr-amarillo-800: #74511f;
+    --clr-amarillo-900: #634420;
+    --clr-amarillo-950: #39230f;
+}
